@@ -34,6 +34,15 @@ public Cliente(int id, String nome, String cpf) {
 	this.nome = nome;
 	this.cpf = cpf;
 }
+
+
+public Cliente(String nome, String cpf, Endereco endereco) {
+	super();
+	this.nome = nome;
+	this.cpf = cpf;
+	this.endereco = endereco;
+}
+
 public int getId() {
 	return id;
 }

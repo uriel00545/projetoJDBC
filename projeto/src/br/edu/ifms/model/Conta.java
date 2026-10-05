@@ -8,7 +8,7 @@ public class Conta {
 	private float saldo;
  
  private Cliente cliente;
- private List<contaInvestimento> investimentos;
+ private List<ContaInvestimento> investimentos;
  
  public void sacar() {}
  

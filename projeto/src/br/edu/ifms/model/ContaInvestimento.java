@@ -2,14 +2,14 @@ package br.edu.ifms.model;
 
 import java.time.LocalDate;
 
-public class contaInvestimento {
+public class ContaInvestimento {
    private long id;
    private LocalDate data;
    private float valor; 
  
-   public contaInvestimento() {}
+   public ContaInvestimento() {}
 
-   public contaInvestimento(long id, LocalDate data, float valor) {
+   public ContaInvestimento(long id, LocalDate data, float valor) {
 	super();
 	this.id = id;
 	this.data = data;
@@ -17,7 +17,7 @@ public class contaInvestimento {
 	
    }
 
-	public contaInvestimento(LocalDate data, float valor) {
+	public ContaInvestimento(LocalDate data, float valor) {
 	super();
 	this.data = data;
 	this.valor = valor;
